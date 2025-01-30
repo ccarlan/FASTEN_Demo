@@ -46,18 +46,33 @@
         <child id="3514655602814462801" name="documentation" index="9kjJR" />
       </concept>
       <concept id="4266958635905406443" name="com.mbeddr.formal.safety.gsn.structure.Strategy" flags="ng" index="2vmxQI" />
+      <concept id="4266958635905267565" name="com.mbeddr.formal.safety.gsn.structure.Goal" flags="ng" index="2vn7WC" />
       <concept id="4266958635905267510" name="com.mbeddr.formal.safety.gsn.structure.GoalStructure" flags="ng" index="2vn7XN">
         <child id="3514655602814221387" name="documentation" index="9lmNH" />
+        <child id="4266958635905772385" name="connections" index="2vhqc$" />
         <child id="4266958635905277632" name="content" index="2vn1q5" />
       </concept>
       <concept id="4266958635905286484" name="com.mbeddr.formal.safety.gsn.structure.GoalStructureElementBase" flags="ng" index="2vnc$h">
         <child id="4266958635905312315" name="text" index="2vnaTY" />
       </concept>
+      <concept id="2525617932486527053" name="com.mbeddr.formal.safety.gsn.structure.GoalStructureConnectionBase" flags="ng" index="3VeShH">
+        <reference id="2525617932486527189" name="source" index="3VeSjP" />
+        <reference id="2525617932486527190" name="target" index="3VeSjQ" />
+      </concept>
+      <concept id="2525617932486533707" name="com.mbeddr.formal.safety.gsn.structure.SupportedByConnection" flags="ng" index="3VeUTF" />
     </language>
   </registry>
   <node concept="2vn7XN" id="Fi9JGvVO6I">
     <property role="3GE5qa" value="" />
     <property role="TrG5h" value="_030_Hazards_Addressing" />
+    <node concept="2vn7WC" id="Fi9JGvVO8Z" role="2vn1q5">
+      <property role="TrG5h" value="G03_Top_Level" />
+      <node concept="19SGf9" id="Fi9JGvVO90" role="2vnaTY">
+        <node concept="19SUe$" id="Fi9JGvVO91" role="19SJt6">
+          <property role="19SUeA" value="All identified hazards &#10;have been addressed. " />
+        </node>
+      </node>
+    </node>
     <node concept="37mRI7" id="Fi9JGvVO9i" role="lGtFl">
       <node concept="37mRIm" id="Fi9JGvVO9j" role="37mRID">
         <property role="37mO49" value="779728545502937663" />
@@ -101,6 +116,10 @@
           <property role="19SUeA" value="Argument over each&#10;addressed hazard." />
         </node>
       </node>
+    </node>
+    <node concept="3VeUTF" id="Fi9JGvVOe3" role="2vhqc$">
+      <ref role="3VeSjP" node="Fi9JGvVO8Z" resolve="G03_Top_Level" />
+      <ref role="3VeSjQ" node="Fi9JGvVOda" resolve="S03_Haz_Addressing" />
     </node>
     <node concept="9kjDo" id="Fi9JGvVOnc" role="9lmNH">
       <node concept="19SGf9" id="Fi9JGvVOnd" role="9kjJR">
