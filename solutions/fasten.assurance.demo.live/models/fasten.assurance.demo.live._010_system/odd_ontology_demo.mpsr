@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:9e470e3b-56bb-447e-8567-48d715b34452(fasten.assurance.demo.live._010_system)" content="root">
+  <persistence version="9" />
+  <imports />
+  <registry>
+    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
+      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
+        <child id="2557074442922392302" name="words" index="19SJt6" />
+      </concept>
+      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
+        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+      </concept>
+    </language>
+    <language id="65ed2ac6-4499-4751-951e-3819684a4b8d" name="com.fasten.req.ontology">
+      <concept id="145334794179050158" name="com.fasten.req.ontology.structure.EmptyLine" flags="ng" index="2IzUYn" />
+      <concept id="4312077340877652056" name="com.fasten.req.ontology.structure.OntologyConcept" flags="ng" index="3SOpcA">
+        <reference id="4312077340877652059" name="superConcept" index="3SOpc_" />
+      </concept>
+      <concept id="4312077340877652053" name="com.fasten.req.ontology.structure.Ontology" flags="ng" index="3SOpcF">
+        <child id="5803911524651728223" name="description" index="2I8HYo" />
+        <child id="4312077340877652119" name="concepts" index="3SOpfD" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="3SOpcF" id="3h0het3tJa9">
+    <property role="3GE5qa" value="" />
+    <property role="TrG5h" value="odd_ontology_demo" />
+    <node concept="3SOpcA" id="3h0het3ub3_" role="3SOpfD">
+      <property role="TrG5h" value="Weather" />
+    </node>
+    <node concept="3SOpcA" id="3h0het3tJab" role="3SOpfD">
+      <property role="TrG5h" value="Precipitations" />
+      <ref role="3SOpc_" node="3h0het3ub3_" resolve="Weather" />
+    </node>
+    <node concept="3SOpcA" id="3h0het3ub3C" role="3SOpfD">
+      <property role="TrG5h" value="Rain" />
+      <ref role="3SOpc_" node="3h0het3tJab" resolve="Precipitations" />
+    </node>
+    <node concept="3SOpcA" id="3h0het3ub3F" role="3SOpfD">
+      <property role="TrG5h" value="Light Rain" />
+      <ref role="3SOpc_" node="3h0het3ub3C" resolve="Rain" />
+    </node>
+    <node concept="3SOpcA" id="3h0het3ub3I" role="3SOpfD">
+      <property role="TrG5h" value="Medium Rain" />
+    </node>
+    <node concept="2IzUYn" id="3h0het3ub3z" role="3SOpfD" />
+    <node concept="19SGf9" id="3h0het3ub3M" role="2I8HYo">
+      <node concept="19SUe$" id="3h0het3ub3N" role="19SJt6">
+        <property role="19SUeA" value="Ontology created during the live demo. " />
+      </node>
+    </node>
+  </node>
+</model>
+
