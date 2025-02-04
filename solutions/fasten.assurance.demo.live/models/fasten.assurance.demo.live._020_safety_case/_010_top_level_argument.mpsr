@@ -25,6 +25,11 @@
       <concept id="2272221112236325691" name="com.mbeddr.formal.safety.gsn.patterns.structure.EliminatedHazardGoal" flags="ng" index="atroF" />
       <concept id="8278132229936590137" name="com.mbeddr.formal.safety.gsn.patterns.structure.ArgumentOverHazardsStrategy" flags="ng" index="FXfxu" />
     </language>
+    <language id="e4b230e7-8e1a-4a05-8148-8713530572c1" name="com.mpsbasics.words.generic">
+      <concept id="612965124711590730" name="com.mpsbasics.words.generic.structure.NamedModelElementRefWord" flags="ng" index="2eCDJ2">
+        <reference id="612965124711590733" name="node" index="2eCDJ5" />
+      </concept>
+    </language>
     <language id="17da266c-02d9-4bbd-b69b-8a656b49f45c" name="com.mbeddr.formal.safety.hara">
       <concept id="3302592670536330516" name="com.mbeddr.formal.safety.hara.structure.HazardsListRefWord" flags="ng" index="oXkut">
         <reference id="3302592670537479239" name="hazardsList" index="oTdVe" />
@@ -45,6 +50,9 @@
     <language id="5e7ffa70-8e23-49f4-8c13-a887bba14c36" name="com.mbeddr.formal.safety.gsn.external_evidence">
       <concept id="2210355370893864968" name="com.mbeddr.formal.safety.gsn.external_evidence.structure.URLEvidenceDocument" flags="ng" index="2Fbr9R">
         <property id="2210355370893864971" name="url" index="2Fbr9O" />
+      </concept>
+      <concept id="2210355370893864965" name="com.mbeddr.formal.safety.gsn.external_evidence.structure.IExternalRessourceDocument" flags="ngI" index="2Fbr9U">
+        <child id="2210355370893974680" name="explanation" index="2FbXVB" />
       </concept>
       <concept id="7910860657280411360" name="com.mbeddr.formal.safety.gsn.external_evidence.structure.DocumentBasedExternalEvidenceSolution" flags="ng" index="3t1IcU">
         <child id="7910860657280411361" name="externalRessources" index="3t1IcV" />
@@ -79,6 +87,17 @@
       <concept id="3253043142928125505" name="de.itemis.mps.editor.diagram.layout.structure.RelativePosition" flags="ng" index="3wpmZ1">
         <child id="3253043142928125557" name="referencePoint" index="3wpmZP" />
         <child id="3253043142928125559" name="offset" index="3wpmZR" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="nn" index="1Pa9Pv">
+        <child id="2535923850359210936" name="lines" index="1PaQFQ" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="e8a04d94-4307-4f88-95a2-25f7c4f39437" name="com.mbeddr.formal.safety.gsn">
@@ -165,7 +184,7 @@
         <node concept="gqqVs" id="cxUXSOxm3X" role="37mO4d">
           <property role="gqqTZ" value="-147.0" />
           <property role="gqqTW" value="122.0" />
-          <property role="gqqTX" value="240.0" />
+          <property role="gqqTX" value="406.0" />
           <property role="gqqTy" value="60.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -364,7 +383,7 @@
       <node concept="37mRIm" id="cxUXSOxmCM" role="37mRID">
         <property role="37mO49" value="225720795941661060" />
         <node concept="gqqVs" id="cxUXSOxmCL" role="37mO4d">
-          <property role="gqqTZ" value="141.0" />
+          <property role="gqqTZ" value="131.0" />
           <property role="gqqTW" value="154.0" />
           <property role="gqqTX" value="261.0" />
           <property role="gqqTy" value="76.0" />
@@ -450,7 +469,13 @@
       <property role="TrG5h" value="C01.02" />
       <node concept="19SGf9" id="cxUXSOxm2W" role="2vnaTY">
         <node concept="19SUe$" id="cxUXSOx_0p" role="19SJt6">
-          <property role="19SUeA" value="The vehicle in which the airbag system&#10;will be integrated will operate in" />
+          <property role="19SUeA" value="The vehicle in which the airbag system&#10;will be integrated will operate in " />
+        </node>
+        <node concept="2eCDJ2" id="cxUXSOxGpj" role="19SJt6">
+          <ref role="2eCDJ5" to="kudc:3h0het3ub3L" resolve="odd_spec_demo" />
+        </node>
+        <node concept="19SUe$" id="cxUXSOxGpk" role="19SJt6">
+          <property role="19SUeA" value=" " />
         </node>
       </node>
     </node>
@@ -522,12 +547,22 @@
     <node concept="3t1IcU" id="cxUXSOxnzL" role="2vn1q5">
       <property role="TrG5h" value="Sn02.02" />
       <node concept="19SGf9" id="cxUXSOxnzM" role="2vnaTY">
-        <node concept="19SUe$" id="cxUXSOxnzN" role="19SJt6">
-          <property role="19SUeA" value=" " />
+        <node concept="19SUe$" id="cxUXSOxGKG" role="19SJt6">
+          <property role="19SUeA" value="  " />
         </node>
       </node>
       <node concept="2Fbr9R" id="cxUXSOxnEM" role="3t1IcV">
         <property role="2Fbr9O" value="https://google.com" />
+        <node concept="1Pa9Pv" id="cxUXSOxGMF" role="2FbXVB">
+          <node concept="1PaTwC" id="cxUXSOxGMG" role="1PaQFQ">
+            <node concept="3oM_SD" id="cxUXSOxGMH" role="1PaTwD">
+              <property role="3oM_SC" value="Test" />
+            </node>
+            <node concept="3oM_SD" id="cxUXSOxGMI" role="1PaTwD">
+              <property role="3oM_SC" value="results" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3VeUTF" id="cxUXSOxnBM" role="2vhqc$">

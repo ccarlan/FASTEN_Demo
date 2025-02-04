@@ -72,6 +72,7 @@
       <concept id="3536307729771763876" name="com.mbeddr.formal.req.base.structure.TracedNodeSpec" flags="ng" index="3g$em0">
         <reference id="3536307729771763879" name="trace" index="3g$em3" />
       </concept>
+      <concept id="4908298719893728634" name="com.mbeddr.formal.req.base.structure.Functional" flags="ng" index="1QQeFk" />
       <concept id="4908298719893728422" name="com.mbeddr.formal.req.base.structure.AbstractRequirement" flags="ng" index="1QQeG8">
         <property id="3226630706269685486" name="id" index="0lsPA" />
         <child id="3226630706270047943" name="kind" index="0nOlf" />
@@ -332,6 +333,16 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="0lhDl" id="cxUXSOxHt7" role="1QQeBF">
+      <property role="0lsPA" value="demo" />
+      <node concept="1QQeFk" id="cxUXSOxHt8" role="0nOlf" />
+      <node concept="19SGf9" id="cxUXSOxHt9" role="1QQeG9">
+        <node concept="19SUe$" id="cxUXSOxHta" role="19SJt6">
+          <property role="19SUeA" value=" " />
+        </node>
+      </node>
+      <node concept="3g$em0" id="cxUXSOxHSp" role="1QQeAC" />
     </node>
   </node>
 </model>
