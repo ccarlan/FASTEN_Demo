@@ -21,9 +21,6 @@
     <language id="f465db4c-63d4-40ef-afda-acd713dc19a1" name="com.mbeddr.formal.safety.gsn.patterns">
       <concept id="9102875167978255309" name="com.mbeddr.formal.safety.gsn.patterns.structure.SupportedByHazardMitigationGoal" flags="ng" index="8gDHL" />
       <concept id="9102875167978180679" name="com.mbeddr.formal.safety.gsn.patterns.structure.HazardMitigatedGoal" flags="ng" index="8gVzV" />
-      <concept id="2272221112236325646" name="com.mbeddr.formal.safety.gsn.patterns.structure.HazardSubstitutionGoal" flags="ng" index="atrou" />
-      <concept id="2272221112236325690" name="com.mbeddr.formal.safety.gsn.patterns.structure.NegligibleHazardGoal" flags="ng" index="atroE" />
-      <concept id="2272221112236325691" name="com.mbeddr.formal.safety.gsn.patterns.structure.EliminatedHazardGoal" flags="ng" index="atroF" />
       <concept id="8278132229936590137" name="com.mbeddr.formal.safety.gsn.patterns.structure.ArgumentOverHazardsStrategy" flags="ng" index="FXfxu" />
     </language>
     <language id="e4b230e7-8e1a-4a05-8148-8713530572c1" name="com.mpsbasics.words.generic">
@@ -189,8 +186,8 @@
       <node concept="37mRIm" id="6mPt7197jPg" role="37mRID">
         <property role="37mO49" value="7328891994227162348" />
         <node concept="gqqVs" id="6mPt7197jPf" role="37mO4d">
-          <property role="gqqTZ" value="583.25" />
-          <property role="gqqTW" value="224.00049672851563" />
+          <property role="gqqTZ" value="578.5607593385274" />
+          <property role="gqqTW" value="238.06821871293332" />
           <property role="gqqTX" value="195.0" />
           <property role="gqqTy" value="60.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
@@ -276,6 +273,7 @@
     </node>
     <node concept="8gVzV" id="6mPt7197jNG" role="2vn1q5">
       <property role="8uqrb" value="true" />
+      <property role="TrG5h" value="G02" />
       <node concept="19SGf9" id="6mPt7197jNH" role="2vnaTY">
         <node concept="19SUe$" id="6mPt7197jNI" role="19SJt6">
           <property role="19SUeA" value="Hazard " />
@@ -289,58 +287,6 @@
     <node concept="8gDHL" id="6mPt7197jNL" role="2vhqc$">
       <ref role="3VeSjP" node="6mPt7197jNB" />
       <ref role="3VeSjQ" node="6mPt7197jNG" />
-    </node>
-    <node concept="atrou" id="6mPt7197jNM" role="2vn1q5">
-      <property role="8uqrb" value="true" />
-      <node concept="19SGf9" id="6mPt7197jNN" role="2vnaTY">
-        <node concept="19SUe$" id="6mPt7197jNO" role="19SJt6">
-          <property role="19SUeA" value="Hazard " />
-        </node>
-        <node concept="oY6sn" id="6mPt7197jNP" role="19SJt6" />
-        <node concept="19SUe$" id="6mPt7197jNQ" role="19SJt6">
-          <property role="19SUeA" value="&#10; has been substituted &#10; with hazard " />
-        </node>
-        <node concept="oY6sn" id="6mPt7197jNR" role="19SJt6" />
-        <node concept="19SUe$" id="6mPt7197jOf" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-      </node>
-    </node>
-    <node concept="8gDHL" id="6mPt7197jNS" role="2vhqc$">
-      <ref role="3VeSjP" node="6mPt7197jNB" />
-      <ref role="3VeSjQ" node="6mPt7197jNM" />
-    </node>
-    <node concept="atroE" id="6mPt7197jNT" role="2vn1q5">
-      <property role="8uqrb" value="true" />
-      <node concept="19SGf9" id="6mPt7197jNU" role="2vnaTY">
-        <node concept="19SUe$" id="6mPt7197jNV" role="19SJt6">
-          <property role="19SUeA" value="Risk associated with hazard " />
-        </node>
-        <node concept="oY6sn" id="6mPt7197jNW" role="19SJt6" />
-        <node concept="19SUe$" id="6mPt7197jNX" role="19SJt6">
-          <property role="19SUeA" value="&#10; has been shown negligible" />
-        </node>
-      </node>
-    </node>
-    <node concept="8gDHL" id="6mPt7197jNY" role="2vhqc$">
-      <ref role="3VeSjP" node="6mPt7197jNB" />
-      <ref role="3VeSjQ" node="6mPt7197jNT" />
-    </node>
-    <node concept="atroF" id="6mPt7197jNZ" role="2vn1q5">
-      <property role="8uqrb" value="true" />
-      <node concept="19SGf9" id="6mPt7197jO0" role="2vnaTY">
-        <node concept="19SUe$" id="6mPt7197jO1" role="19SJt6">
-          <property role="19SUeA" value="Hazard " />
-        </node>
-        <node concept="oY6sn" id="6mPt7197jO2" role="19SJt6" />
-        <node concept="19SUe$" id="6mPt7197jO3" role="19SJt6">
-          <property role="19SUeA" value="&#10; has been eliminated &#10; and can no longer occur" />
-        </node>
-      </node>
-    </node>
-    <node concept="8gDHL" id="6mPt7197jO4" role="2vhqc$">
-      <ref role="3VeSjP" node="6mPt7197jNB" />
-      <ref role="3VeSjQ" node="6mPt7197jNZ" />
     </node>
     <node concept="FXfxu" id="6mPt7197jNB" role="2vn1q5">
       <property role="TrG5h" value="Str01" />
