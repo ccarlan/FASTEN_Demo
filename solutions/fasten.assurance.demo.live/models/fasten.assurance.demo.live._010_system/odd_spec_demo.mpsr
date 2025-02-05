@@ -15,7 +15,9 @@
         <reference id="4464095630344300151" name="ontology" index="3fY04_" />
         <child id="4464095630344300149" name="sentences" index="3fY04B" />
       </concept>
-      <concept id="4464095630344420295" name="com.fasten.req.odd.structure.OntologyConceptConstraint" flags="ng" index="3fZHMl" />
+      <concept id="4464095630344420295" name="com.fasten.req.odd.structure.OntologyConceptConstraint" flags="ng" index="3fZHMl">
+        <child id="4464095630344420296" name="conceptRef" index="3fZHMq" />
+      </concept>
       <concept id="4312077340877618330" name="com.fasten.req.odd.structure.ODD" flags="ng" index="3SOIZ$">
         <child id="4312077340877618359" name="content" index="3SOIZ9" />
       </concept>
@@ -42,9 +44,13 @@
       <node concept="3fWYEE" id="3h0het3ub3P" role="3fY04B">
         <property role="3fWJIx" value="3RNDPbM0lNI/disallow_only" />
         <node concept="MFvB7" id="3h0het3ub3Q" role="3fWY_o">
-          <ref role="MFvBS" node="3h0het3tJab" resolve="Precipitations" />
+          <ref role="MFvBS" node="3h0het3ub3C" resolve="Rain" />
         </node>
-        <node concept="3fZHMl" id="3h0het3ub3S" role="3fWwZA" />
+        <node concept="3fZHMl" id="3h0het3ub3S" role="3fWwZA">
+          <node concept="MFvB7" id="1JjdLBtB5hv" role="3fZHMq">
+            <ref role="MFvBS" node="1JjdLBtB5ht" resolve="Heavy Rain" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

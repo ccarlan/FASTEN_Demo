@@ -50,6 +50,11 @@
     </node>
     <node concept="3SOpcA" id="3h0het3ub3I" role="3SOpfD">
       <property role="TrG5h" value="Medium Rain" />
+      <ref role="3SOpc_" node="3h0het3ub3C" resolve="Rain" />
+    </node>
+    <node concept="3SOpcA" id="1JjdLBtB5ht" role="3SOpfD">
+      <property role="TrG5h" value="Heavy Rain" />
+      <ref role="3SOpc_" node="3h0het3ub3C" resolve="Rain" />
     </node>
     <node concept="2IzUYn" id="3h0het3ub3z" role="3SOpfD" />
     <node concept="19SGf9" id="3h0het3ub3M" role="2I8HYo">
