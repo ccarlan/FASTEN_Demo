@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/solutions/fasten.assurance.demo.live/fasten.assurance.demo.carmen.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/fasten.assurance.demo.live2/fasten.assurance.demo.live2.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/fasten.assurance.demo/fasten.assurance.demo.msd" folder="" />
     </projectModules>
   </component>

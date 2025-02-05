@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:2ff83c1a-5e07-4468-831f-22b04362e114(fasten.assurance.demo.live2._020_safety_arguments)" content="header">
+  <persistence version="9" />
+  <languages>
+    <devkit ref="ac9a2847-3512-4af0-8db9-c20abbe2720a(fasten.safety)" />
+  </languages>
+  <imports>
+    <import index="1hxd" ref="r:3d507f11-1769-4a66-9966-8af85acb8e8e(fasten.assurance.demo.live2._010_system_models)" />
+  </imports>
+</model>
+
