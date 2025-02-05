@@ -99,6 +99,7 @@
       <concept id="8242542213102376275" name="com.mbeddr.formal.safety.gsn.structure.IUpdateableSolution" flags="ngI" index="2wgB4F">
         <property id="4946522816140915512" name="hashCode" index="1_P2tN" />
         <property id="4946522816140921955" name="dateShort" index="1_P5wC" />
+        <property id="4946522816140921857" name="success" index="1_P5xa" />
         <property id="4946522816140922055" name="dateLong" index="1_P5yc" />
       </concept>
       <concept id="2525617932486527053" name="com.mbeddr.formal.safety.gsn.structure.GoalStructureConnectionBase" flags="ng" index="3VeShH">
@@ -322,9 +323,10 @@
       <property role="3t1IUl" value="python check_tests_status.py" />
       <property role="3t1IUb" value="SUCCESS" />
       <property role="2wvm6Y" value="true" />
-      <property role="1_P5yc" value="Tue Feb 04 22:55:42 CET 2025" />
-      <property role="1_P5wC" value="04-02-2025 22:55:42" />
+      <property role="1_P5yc" value="Wed Feb 05 11:46:55 CET 2025" />
+      <property role="1_P5wC" value="05-02-2025 11:46:55" />
       <property role="1_P2tN" value="42" />
+      <property role="1_P5xa" value="true" />
       <node concept="19SGf9" id="cxUXSOxuoX" role="2vnaTY">
         <node concept="19SUe$" id="cxUXSOxuoY" role="19SJt6">
           <property role="19SUeA" value=" " />
