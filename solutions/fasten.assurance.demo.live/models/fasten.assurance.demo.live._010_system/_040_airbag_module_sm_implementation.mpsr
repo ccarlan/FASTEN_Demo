@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:9e470e3b-56bb-447e-8567-48d715b34452(fasten.assurance.demo.live._010_system)" content="root">
+<model ref="r:9e470e3b-56bb-447e-8567-48d715b34452(fasten.assurance.demo.carmen._010_system)" content="root">
   <persistence version="9" />
   <imports>
-    <import index="thfe" ref="r:e37fbe90-555f-4ab9-9e6e-c2e1924ef7b2(fasten.assurance.demo.live._030_safety_assurance)" implicit="true" />
+    <import index="thfe" ref="r:e37fbe90-555f-4ab9-9e6e-c2e1924ef7b2(fasten.assurance.demo.carmen._030_safety_assurance)" implicit="true" />
   </imports>
   <registry>
     <language id="c1b1e23f-b677-40b8-a490-e192dd8d78e5" name="com.mbeddr.formal.nusmv.sm">

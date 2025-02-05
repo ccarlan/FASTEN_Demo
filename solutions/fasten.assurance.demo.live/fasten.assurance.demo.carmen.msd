@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="fasten.assurance.demo.live" uuid="fb1d0334-9912-4487-a13d-a4a653b74dab" moduleVersion="0">
+<solution name="fasten.assurance.demo.carmen" uuid="fb1d0334-9912-4487-a13d-a4a653b74dab" moduleVersion="0">
   <models>
     <modelRoot type="default" contentPath="${module}">
       <sourceRoot location="models" />
@@ -102,7 +102,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="7a642ffb-bd05-4e8c-b81a-08fde9a204ba(com.mbeddr.formal.safety.tutorial)" version="0" />
-    <module reference="fb1d0334-9912-4487-a13d-a4a653b74dab(fasten.assurance.demo.live)" version="0" />
+    <module reference="fb1d0334-9912-4487-a13d-a4a653b74dab(fasten.assurance.demo.carmen)" version="0" />
   </dependencyVersions>
 </solution>
 

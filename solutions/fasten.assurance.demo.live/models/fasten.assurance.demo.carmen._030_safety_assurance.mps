@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:e37fbe90-555f-4ab9-9e6e-c2e1924ef7b2(fasten.assurance.demo.live._030_safety_assurance)">
+<model ref="r:e37fbe90-555f-4ab9-9e6e-c2e1924ef7b2(fasten.assurance.demo.carmen._030_safety_assurance)">
   <persistence version="9" />
   <languages>
     <devkit ref="ac9a2847-3512-4af0-8db9-c20abbe2720a(fasten.safety)" />
   </languages>
   <imports>
-    <import index="vpxd" ref="r:452d363d-7b95-41c5-b89d-e1bbe4969842(fasten.assurance.demo.live._020_safety_case)" />
+    <import index="vpxd" ref="r:452d363d-7b95-41c5-b89d-e1bbe4969842(fasten.assurance.demo.carmen._020_safety_case)" />
     <import index="kudc" ref="r:9e470e3b-56bb-447e-8567-48d715b34452(fasten.assurance.demo.live._010_system)" />
   </imports>
   <registry>
@@ -72,7 +72,6 @@
       <concept id="3536307729771763876" name="com.mbeddr.formal.req.base.structure.TracedNodeSpec" flags="ng" index="3g$em0">
         <reference id="3536307729771763879" name="trace" index="3g$em3" />
       </concept>
-      <concept id="4908298719893728634" name="com.mbeddr.formal.req.base.structure.Functional" flags="ng" index="1QQeFk" />
       <concept id="4908298719893728422" name="com.mbeddr.formal.req.base.structure.AbstractRequirement" flags="ng" index="1QQeG8">
         <property id="3226630706269685486" name="id" index="0lsPA" />
         <child id="3226630706270047943" name="kind" index="0nOlf" />
@@ -333,16 +332,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="0lhDl" id="cxUXSOxHt7" role="1QQeBF">
-      <property role="0lsPA" value="demo" />
-      <node concept="1QQeFk" id="cxUXSOxHt8" role="0nOlf" />
-      <node concept="19SGf9" id="cxUXSOxHt9" role="1QQeG9">
-        <node concept="19SUe$" id="cxUXSOxHta" role="19SJt6">
-          <property role="19SUeA" value=" " />
-        </node>
-      </node>
-      <node concept="3g$em0" id="cxUXSOxHSp" role="1QQeAC" />
     </node>
   </node>
 </model>

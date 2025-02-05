@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:452d363d-7b95-41c5-b89d-e1bbe4969842(fasten.assurance.demo.live._020_safety_case)" content="root">
+<model ref="r:452d363d-7b95-41c5-b89d-e1bbe4969842(fasten.assurance.demo.carmen._020_safety_case)" content="root">
   <persistence version="9" />
   <imports>
-    <import index="thfe" ref="r:e37fbe90-555f-4ab9-9e6e-c2e1924ef7b2(fasten.assurance.demo.live._030_safety_assurance)" implicit="true" />
+    <import index="thfe" ref="r:e37fbe90-555f-4ab9-9e6e-c2e1924ef7b2(fasten.assurance.demo.carmen._030_safety_assurance)" implicit="true" />
   </imports>
   <registry>
     <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
@@ -319,11 +319,11 @@
     <node concept="3t1IUk" id="cxUXSOxuoW" role="2vn1q5">
       <property role="38RjDJ" value="true" />
       <property role="TrG5h" value="Sn03.01" />
-      <property role="3t1IUl" value="check check_tests_status.py" />
+      <property role="3t1IUl" value="python check_tests_status.py" />
       <property role="3t1IUb" value="SUCCESS" />
       <property role="2wvm6Y" value="true" />
-      <property role="1_P5yc" value="Tue Feb 04 16:35:16 CET 2025" />
-      <property role="1_P5wC" value="04-02-2025 16:35:16" />
+      <property role="1_P5yc" value="Tue Feb 04 22:55:42 CET 2025" />
+      <property role="1_P5wC" value="04-02-2025 22:55:42" />
       <property role="1_P2tN" value="42" />
       <node concept="19SGf9" id="cxUXSOxuoX" role="2vnaTY">
         <node concept="19SUe$" id="cxUXSOxuoY" role="19SJt6">

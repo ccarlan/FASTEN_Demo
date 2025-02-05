@@ -10,9 +10,9 @@ which will cause in turn the invalidation of the evidence.
         <testcase name="testCase1" classname="DemoTestSuite" time="2.113871" />
         <testcase name="testCase2" classname="DemoTestSuite" time="1.051" />
         <testcase name="testCase3" classname="DemoTestSuite" time="3.441" >
-	    <!-- failure message="Assertion error message" type="AssertionError">
+	    <failure message="Assertion error message" type="AssertionError">
                 
-            </failure -->
+            </failure>
 	</testcase>
     </testsuite>
 </testsuites>
